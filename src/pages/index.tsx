@@ -1,7 +1,7 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
-import styled from "styled-components";
+import styled from 'styled-components';
 import styles from "../styles/Home.module.css";
 
 const Container = styled.div`
@@ -9,7 +9,6 @@ const Container = styled.div`
 `;
 
 const Home: NextPage = () => {
-  const a = "a";
   return (
     <Container>
       <Head>
