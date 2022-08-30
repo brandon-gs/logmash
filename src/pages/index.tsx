@@ -9,6 +9,7 @@ const Container = styled.div`
 `;
 
 const Home: NextPage = () => {
+  const a = "a";
   return (
     <Container>
       <Head>
